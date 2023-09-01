@@ -1,0 +1,133 @@
+{
+  "current": {
+    "font_col_link": "#ffffff",
+    "font_col_heads": "#ffffff",
+    "btn_col_txt": "#ffffff",
+    "btn_alt_txt": "#ffffff",
+    "bg_col": "#111",
+    "head_bg_col": "#111",
+    "head_txt_col": "#ffffff",
+    "alt_bg_head_col": "#ffffff",
+    "alt_bg_text_col": "#ffffff",
+    "alt_bg_link_col": "#ffffff",
+    "sections": {
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
+          "enable_cart_notes": true,
+          "show_tax_and_shipping": true,
+          "enable_direct_cart": true,
+          "cart_terms_page": "",
+          "show_backorder_text": true,
+          "show_inventory_notice": "low",
+          "show_inventory_count": "low",
+          "inventory_threshold": 10,
+          "show_announcement": false,
+          "announcement_position": "above-items",
+          "announcement_text": "Cart announcement text",
+          "announcement_icon": "box",
+          "announcement_icon_size": "small",
+          "announcement_enable_box": true,
+          "announcement_box_color": "#e0f4d5",
+          "empty_icon": "basket",
+          "empty_heading": "Your cart is empty",
+          "empty_text": "",
+          "empty_button_text": "Start shopping",
+          "empty_button_link": "shopify:\/\/collections\/all",
+          "empty_button_style": "primary",
+          "empty_enable_custom_colors": false,
+          "empty_color_background": "",
+          "empty_color_background_gradient": "",
+          "empty_color_text": "",
+          "enable_cross_sells": true,
+          "cross_sell_title": "You may like",
+          "cross_sell_products": [
+
+          ],
+          "enable_automatic_cross_sells": true
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "announcement_bar_col": "#4a4a4a",
+          "announcement_text_col": "#ffffff",
+          "message_font_size": 14,
+          "show_social_icons": true,
+          "menu": "",
+          "show_country_selector": true,
+          "show_language_selector": true
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "show_country_selector": true,
+          "show_language_selector": true,
+          "logo_img_width_int": 180,
+          "mobile_logo_img_width_int": 100,
+          "logo_h1": true,
+          "enable_sticky": false,
+          "enable_transparent": false,
+          "transparent_color": "#ffffff",
+          "menu_linklist": "main-menu",
+          "menu_linklist_mobile": "",
+          "menu_layout": "underneath",
+          "nav_featured_link": "Sale",
+          "enable_mobile_promo_carousel": true,
+          "enable_nav_mob_products": false,
+          "nav_mob_products_title": "Best Sellers",
+          "nav_mob_products_collection": "",
+          "enable_search": true,
+          "search_suggestions_title": "",
+          "search_suggestions_menu": "",
+          "icon_strategy": "icons_cart_search",
+          "cart_icon": "basket"
+        }
+      },
+      "store-messages": {
+        "type": "store-messages",
+        "settings": {
+          "head_not_home_only": false,
+          "head_not_col_bg": "#f4f6f8",
+          "head_not_col_txt1": "#171717",
+          "head_not_col_txt2": "#4c4c4b",
+          "head_not_mob_show": false,
+          "head_not_mob_text": "Add important information here",
+          "head_not_mob_url": ""
+        }
+      },
+      "cross-page-promos": {
+        "type": "cross-page-promos",
+        "settings": {
+          "visibility": "all"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "lower_menu": "",
+          "show_payment_icons": true,
+          "show_country_selector": true,
+          "show_language_selector": true
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_delay_seconds": 5,
+          "popup_dismiss_for_days": 30,
+          "position": "center",
+          "title": "Sign up and save",
+          "text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers.<\/p>",
+          "show_newsletter": true,
+          "show_social_icons": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
