@@ -5,11 +5,15 @@
     "btn_col_txt": "#ffffff",
     "btn_alt_txt": "#ffffff",
     "bg_col": "#111",
-    "head_bg_col": "#111",
+    "head_bg_col": "#000000",
     "head_txt_col": "#ffffff",
+    "panel_nav_bg": "#000000",
     "alt_bg_head_col": "#ffffff",
     "alt_bg_text_col": "#ffffff",
     "alt_bg_link_col": "#ffffff",
+    "prod_thumb_detail_col": "#ffffff",
+    "prod_thumb_detail_col_a": "#ffffff",
+    "foot_text_col": "#ffffff",
     "sections": {
       "cart-drawer": {
         "type": "cart-drawer",
@@ -62,12 +66,13 @@
       "header": {
         "type": "header",
         "settings": {
-          "show_country_selector": true,
-          "show_language_selector": true,
+          "show_country_selector": false,
+          "show_language_selector": false,
+          "logo": "shopify:\/\/shop_images\/Website_Logo.png",
           "logo_img_width_int": 180,
           "mobile_logo_img_width_int": 100,
           "logo_h1": true,
-          "enable_sticky": false,
+          "enable_sticky": true,
           "enable_transparent": false,
           "transparent_color": "#ffffff",
           "menu_linklist": "main-menu",
@@ -78,11 +83,11 @@
           "enable_nav_mob_products": false,
           "nav_mob_products_title": "Best Sellers",
           "nav_mob_products_collection": "",
-          "enable_search": true,
+          "enable_search": false,
           "search_suggestions_title": "",
           "search_suggestions_menu": "",
           "icon_strategy": "icons_cart_search",
-          "cart_icon": "basket"
+          "cart_icon": "cart"
         }
       },
       "store-messages": {
